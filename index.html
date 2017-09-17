@@ -23,6 +23,8 @@
 	
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css"> 
+	
+	<link rel="stylesheet" href="css/icomoon.css"> 
 
 	
     <!-- Custom styles for this template -->
@@ -60,12 +62,13 @@
     </nav>
 
     <!-- Header -->
-    <header class="masthead">
+    <header id="masthead" class="masthead">
+	<div class="overlay"></div>
       <div class="container">
         <img class="img-fluid" src="img/profile_jmb.png" alt="">
         <div class="intro-text">
           <span class="name">Jaime Martínez Ballesteros</span>
-          <hr class="star-light">
+          <hr class="line-light">
           <span class="skills">Software Engineer - Game Programmer</span>
         </div>
       </div>
@@ -83,12 +86,12 @@
           <div class="col-lg-4 mr-auto">
             <p>I studied Software Engineering degree in Universidad Politécnica de Madrid and Computer Graphics, Games and Virtual Reality master's degree in Universidad Rey Juan Carlos.</p><p>I love sofware development and, specially, game programming.</p><p>I also like modelling and texturing, as you'll see in some of my projects.</p>
           </div>
-          <!--<div class="col-lg-8 mx-auto text-center">
-            <a href="#" class="btn btn-lg btn-outline">
+          <div class="col-lg-8 mx-auto text-center">
+            <a href="files/cv_jaime_martinez_ballesteros.pdf" class="btn btn-lg btn-outline">
               <i class="fa fa-download"></i>
-              Download Theme
+              Download CV (.pdf)
             </a>
-          </div>-->
+          </div>
         </div>
       </div>
     </section>
@@ -184,7 +187,7 @@ Use of CUDA for data post-processing.</p>
         <h2 class="text-center">Portfolio</h2>
         <hr class="star-primary">
         <div class="row">
-          <div class="col-sm-4 portfolio-item">
+          <div class="col-sm-5 ml-auto portfolio-item">
             <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
@@ -192,10 +195,10 @@ Use of CUDA for data post-processing.</p>
 				  <p class="fa-1x"><i>The Night</i></p>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/the_night/1.jpeg" alt="">
+              <img class="img-fluid" src="img/portfolio/the_night/cover.jpeg" alt="">
             </a>
           </div>
-          <div class="col-sm-4 portfolio-item">
+          <div class="col-sm-5 mr-auto portfolio-item">
             <a class="portfolio-link" href="#portfolioModal2" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
@@ -206,7 +209,7 @@ Use of CUDA for data post-processing.</p>
               <img class="img-fluid" src="img/portfolio/souls/cover.jpg" alt="">
             </a>
           </div>
-          <div class="col-sm-4 portfolio-item">
+          <div class="col-sm-5 ml-auto portfolio-item">
             <a class="portfolio-link" href="#portfolioModal3" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
@@ -217,7 +220,7 @@ Use of CUDA for data post-processing.</p>
               <img class="img-fluid" src="img/portfolio/pirates/cover.png" alt="">
             </a>
           </div>
-          <div class="col-sm-4 portfolio-item">
+          <div class="col-sm-5 mr-auto portfolio-item">
             <a class="portfolio-link" href="#portfolioModal4" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
@@ -385,6 +388,14 @@ Use of CUDA for data post-processing.</p>
 				<iframe width="854" height="480" src="https://www.youtube.com/embed/-IEmn-9v25U" frameborder="0" allowfullscreen></iframe>
 				  
 				<iframe width="854" height="480" src="https://www.youtube.com/embed/hW61jHQ2CJE" frameborder="0" allowfullscreen></iframe>
+				
+				<div class="col-lg-8 mx-auto text-center">
+					<a href="https://www.dropbox.com/sh/pjik64ijfv3863z/AABi07POTijUFxx_Fu7TouHSa?dl=0" class="btn btn-md btn-outline">
+					<i class="fa fa-download"></i>
+						Download game
+					</a>
+				</div>
+				
 				<div>
 				  <button class="btn btn-success" type="button" data-dismiss="modal">
                     <i class="fa fa-times"></i>
@@ -417,6 +428,12 @@ Use of CUDA for data post-processing.</p>
 				  <p>The ship and other elements, such as the fort or the tower, were modelled with 3D Studio Max and texturized with Adobe Photoshop.</p>
                   <img class="img-fluid img-centered" src="img/portfolio/pirates/1.png" alt="">
 				                    <img class="img-fluid img-centered" src="img/portfolio/pirates/2.png" alt="">
+				<div class="col-lg-8 mx-auto text-center">
+					<a href="https://www.dropbox.com/s/p1e7fmb09p0qujv/PiratesOfTheCaribbean_v1.2.0%28Stable%29.rar?dl=0" class="btn btn-md btn-outline">
+					<i class="fa fa-download"></i>
+						Download game
+					</a>
+				</div>
                   <button class="btn btn-success" type="button" data-dismiss="modal">
                     <i class="fa fa-times"></i>
                     Close</button>
@@ -463,9 +480,13 @@ Use of CUDA for data post-processing.</p>
     
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	
+	<script src="js/jquery.waypoints.min.js"></script>
+	
+	<script src="js/jquery.stellar.min.js"></script>
 
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
@@ -476,6 +497,8 @@ Use of CUDA for data post-processing.</p>
 
     <!-- Custom scripts for this template -->
     <script src="js/freelancer.min.js"></script>
+	
+	<!--<script src="js/main.js"></script>-->
 
   </body>
 

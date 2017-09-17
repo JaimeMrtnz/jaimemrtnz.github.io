@@ -19,6 +19,22 @@ body {
   background: #fff;
 }
 
+#masthead {
+	background-image:
+        linear-gradient(rgba(242, 82, 50, 0.8), rgba(242, 82, 50, 0.8)), 
+        url('../img/office.jpg');
+	background-position: 0px -400px;
+}
+
+hr.line-light{
+	max-width:250px;
+	margin:25px auto 30px;
+	padding:0;
+	text-align:center;
+	border:none;
+	border-top:solid 5px
+}
+
 #page {
   position: relative;
   overflow-x: hidden;
@@ -1139,8 +1155,9 @@ input[type="text"] {
   border: 2px solid #5cb85c;
 }
 .btn-success:hover, .btn-success:focus, .btn-success:active {
-  background: #4cae4c !important;
-  border-color: #4cae4c !important;
+  background: #fff !important;
+  border-color: #f25232 !important;
+  color: #f25232 !important;
 }
 .btn-success.btn-outline {
   background: transparent;
